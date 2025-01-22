@@ -147,14 +147,13 @@ p {
 
 @media (max-width: 768px) {
   #hero {
-    background-position: center center; /* Keep the image centered */
-    background-size: cover; /* Let the background image adjust for small screens */
-    height: 60vh; /* Reduce height on smaller screens */
+    background-size: 100%; /* Adjust the background to 100% width for tablets */
   }
 }
 
 @media (max-width: 480px) {
   #hero {
-    height: 50vh; /* Further reduce height for very small screens */
+    background-size: 100%; /* Adjust the background to 100% width for smaller mobile devices */
+    height: 400px; /* Set a fixed height (in px) for mobile view */
   }
 }
